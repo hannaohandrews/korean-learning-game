@@ -5,6 +5,7 @@ function App() {
       <header className="App-header">
       Hanna's Hangeul
       </header>
+      <button>HI</button>
     </div>
   );
 }
