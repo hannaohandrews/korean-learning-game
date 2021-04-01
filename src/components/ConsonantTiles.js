@@ -1,6 +1,5 @@
-/** @jsx jsx */
+/** @jsx jsx */ /** @jsxRuntime classic */
 import { jsx, css } from '@emotion/core';
-
 import { Fragment } from 'react';
 
 export default function ConsonantTiles() {
@@ -32,7 +31,7 @@ export default function ConsonantTiles() {
   const gridStyling = css`
     display: grid;
     border: 1px black;
-    grid-template-columns: repeat(2, 50px);
+    grid-template-columns: repeat(2, 10px);
   `;
 
   return (
